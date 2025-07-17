@@ -1,0 +1,2 @@
+# SQLBASICS
+for practice 
