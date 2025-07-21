@@ -1,14 +1,1 @@
-CREATE TABLE student(
-    rollno INT PRIMARY KEY,
-    name VARCHAR(20),
-    marks INT(10),
-    grade CHAR(1)
-);
-INSERT INTO student VALUES
-(101,"sneha",20,"B"),
-(102,"jitesh",23,"A"),
-(103,"sunil",19,"C"),
-(104,"shashi","12","F");
-UPDATE student SET grade="A+" WHERE marks>22;
-DELETE FROM student WHERE marks<19;
-SELECT * FROM student;
+
